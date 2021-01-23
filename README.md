@@ -1,16 +1,5 @@
 # Distribuição de vacinas contra o vírus Sars-CoV-2
 
-```
-Author: Marcelo Medeiros de Lima
-```
-(^1) Departamento de Ciência da Computação – Universidade Federal de Minas Gerais (UFMG)
-**_Abstract._** _The article addresses a problem in the distribution of vaccines
-against the Sars-CoV-2 [2] virus (coronavirus). With the use of Direc-
-ted graphs [4] and the Breadth-first search [3] (BFS), an approach will be
-presented to distribute vaccines from each laboratory according to their tem-
-perature conservation rules. In accordance with the distribution centers and
-vaccination posts availability, a list of posts that can be used to apply the
-vaccine in question is drawn up._
 **_Resumo._** _O artigo aborda um problema de distribuição de vacinas con-
 tra o Sars-CoV-2 [2] virus (coronavirus). Com o uso de Grafos dirigidos
 [4] e do algoritmo de Busca em largura [3] (BFS), será apresentada uma
