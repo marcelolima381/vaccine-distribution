@@ -68,9 +68,6 @@ os centros de distribuição e postos de vacinação. Um grafo dirigido é um gr
 que a aresta tem direção. Ou seja, os nós são pares ordenados na definição de cada
 aresta.
 
-```
-Figura 1. Diferença entre grafos dirigidos e não dirigidos [1]
-```
 **3.2. Transporte**
 
 O transporte das vacinas é feito por uma busca em largura no grafo. A partir
@@ -79,10 +76,6 @@ BFS [3]. Com o cálculo de queda de temperatura a cada posto de vacinação que 
 transporte passa é possível calcular quantas camadas o transporte consegue chegar
 sem que a vacina perca a eficácia pela queda de temperatura abaixo do exigido.
 
-
-```
-Figura 2. Exemplo de grafo dirigido com os centros e postos
-```
 **3.3. Complexidade assintótica**
 
 A complexidade assintótica do algoritmo é _O(CD²+ CD * PV)_. Tendo o
@@ -122,28 +115,6 @@ em C++17.
 
 **5.2. Grafo**
 
-**class Graph** {
-_// No. of vertices_
-**int** V;
-_// Pointer to an array containing adjacency lists_
-std::list< **int** > *adj;
-_// used by isCyclic()_
-**bool** isCyclicUtil( **int** v, **bool** visited[], **bool** *rs);
-**public** :
-_// Constructor_
-**explicit** Graph( **int** V);
-_// To add an edge to graph_
-**void** addEdge( **int** v, **int** w);
-_// Returns true if there is a cycle in this graph_
-**bool** isCyclic();
-**void** BFS(
-**int** s,
-std::vector< **int** > &visitedPosts,
-**int** layersLimit,
-Graph *CDGraph
-);
-};
-
 A estrutura mais importante do algoritmo é o grafo em si. A classe do grafo
 armazena o número de vértices do grafo, além do ponteiro que armazena as listas de
 adjacências. A partir da dos métodos da classe é possível adicionar arestas ao grafo,
@@ -169,10 +140,6 @@ adjacente de 0. Se não marcarmos os vértices visitados, 2 será processado nov
 e se tornará um processo não finalizado. A amplitude da primeira travessia do gráfico
 a seguir seria 2, 0, 3, 1.
 
-
-```
-Figura 3. Exemplo de uso do BFS
-```
 ## 6. Conclusão
 
 O algoritmo foi implementado com sucesso, sendo utilizado os conhecimentos
