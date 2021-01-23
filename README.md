@@ -1,7 +1,4 @@
-# vaccine-distribution
-Algorithm to distribute vaccines in vaccination posts
-
-# Distribuição de vacinas contra o vírus Sars-CoV-
+# Distribuição de vacinas contra o vírus Sars-CoV-2
 
 ```
 Author: Marcelo Medeiros de Lima
