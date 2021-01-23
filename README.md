@@ -1,6 +1,6 @@
 # Distribuição de vacinas contra o vírus Sars-CoV-2
 
-**_Resumo._** _O artigo aborda um problema de distribuição de vacinas con-
+**_Resumo._** _O projeto aborda um problema de distribuição de vacinas con-
 tra o Sars-CoV-2 [2] virus (coronavirus). Com o uso de Grafos dirigidos
 [4] e do algoritmo de Busca em largura [3] (BFS), será apresentada uma
 abordagem para se distribuir as vacinas de cada laboratório segundo suas
