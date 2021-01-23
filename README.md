@@ -4,7 +4,7 @@ Algorithm to distribute vaccines in vaccination posts
 # Distribuição de vacinas contra o vírus Sars-CoV-
 
 ```
-Marcelo Medeiros de Lima - 2018047030
+Author: Marcelo Medeiros de Lima
 ```
 (^1) Departamento de Ciência da Computação – Universidade Federal de Minas Gerais (UFMG)
 **_Abstract._** _The article addresses a problem in the distribution of vaccines
