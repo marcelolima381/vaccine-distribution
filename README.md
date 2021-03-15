@@ -82,7 +82,7 @@ para fins de organização do projeto, então caso queira seguir exatamente o ex
 dado, recomenda-se que o arquivo teste de entrada seja movido para essa pasta na
 raiz do projeto. Caso não consiga executar o arquivo executável gerado, o comando
 
-sudo chmod +x tp
+sudo chmod +x tp01
 
 deve resolver o problema. Sendo os argumentos:
 
@@ -137,10 +137,13 @@ da disciplina **Algoritmos I** sobre grafos e suas aplicações.
 
 [1] geeksforgeeks. _Introduction to Graphs_. url: https://www.geeksforgeeks.
 org/introduction-to-graphs/. (accessed: 10.01.2021).
+
 [2] UN. _UN Coronavirus Reference_ .url:https://www.un.org/en/coronavirus.
 (accessed: 22.01.2021).
+
 [3] Wikipedia. _Breadth first search_ .url: https://en.wikipedia.org/wiki/
 Breadth-first_search. (accessed: 10.01.2021).
+
 [4] Wikipedia. _Directed graph_. url: https : / / en. wikipedia. org / wiki /
 Directed_graph. (accessed: 10.01.2021).
 
